@@ -1,0 +1,76 @@
+@font-face {
+    font-family:  "Impact";
+    src: url("/fonts/impact.ttf" format("truetype"));
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    color: #b777d8;
+    font-family: "Segoe UI", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #131558;
+    background-image: linear-gradient(#4239ca, rgb(1, 8, 41));
+    letter-spacing: .0025em;
+    text-shadow: 5px 5px #b8cadb;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+
+h1 {
+    font-size: 6vw;
+    font-weight: 700;
+    text-stroke: 1px navy;
+    -webkit-text-stroke: 1px white;
+    /* text-transform: uppercase; */
+    padding: 0;
+    margin: 0;
+    
+}
+
+figcaption {
+    font-size: 1.5vw;
+    margin-bottom: 0.5vw;
+    color: #c9a7da;
+    letter-spacing: .025em;
+    text-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+    figcaption {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+
+.instagram img {
+    width: 90px;
+}
+
+
+.mail img {
+    margin-top: 20px;
+    margin-left: 14px;
+    width: 76px;
+}
+
+
