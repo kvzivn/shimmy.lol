@@ -1,0 +1,3 @@
+background = #d0ccd0
+accent = #c04cfd
+secondary = #028090
